@@ -40,7 +40,7 @@
 }
 
 #description {
-    text-align: justify;
+    text-align: left;
     text-wrap: break-word;
     max-width: 512px;
     max-height: 512px;

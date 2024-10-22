@@ -49,3 +49,9 @@ li, summary {
     max-height: 100vh;
     opacity: 1;
 }
+
+#emolga img {
+    max-width: 512px;
+    max-height: 512px;
+    margin-bottom: 0px;
+}

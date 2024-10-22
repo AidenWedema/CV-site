@@ -1,0 +1,62 @@
+Titel: Bezoeker kan de website eenvoudig en overzichtelijk gebruiken
+
+Als: een potentiële werkgever of recruiter
+Wil ik: dat de website overzichtelijk is met duidelijke secties
+Zodat: ik snel de benodigde informatie kan vinden zonder te veel te moeten zoeken.
+
+Acceptatiecriteria:
+
+De website heeft een logische navigatiestructuur.
+Informatie is opgedeeld in duidelijke secties (persoonlijke informatie, werkervaring, opleidingen, vaardigheden).
+De lay-out is visueel aantrekkelijk en niet rommelig.
+
+
+
+Titel: Bezoeker kan het CV eenvoudig downloaden
+
+Als: een potentiële werkgever of recruiter
+Wil ik: snel het CV kunnen downloaden als PDF
+Zodat: ik het later offline kan beoordelen en delen met collega's.
+
+Acceptatiecriteria:
+
+Er is een goed zichtbare knop op de website om het CV te downloaden als PDF.
+Het CV wordt correct opgemaakt en gedownload in PDF-formaat.
+
+
+
+Titel: Bezoeker kan gemakkelijk door alle secties van de website navigeren
+
+Als: een potentiële werkgever of recruiter
+Wil ik: duidelijke en logische secties voor persoonlijke informatie, werkervaring, opleidingen en vaardigheden zien
+Zodat: ik snel de juiste informatie kan vinden om een goede inschatting van de kandidaat te maken.
+
+Acceptatiecriteria:
+
+Secties voor werkervaring, opleidingen en vaardigheden zijn helder gescheiden.
+Elke sectie bevat relevante informatie die makkelijk te scannen is.
+
+
+
+Titel: De website laadt snel en is toegankelijk op verschillende apparaten
+
+Als: een potentiële werkgever of recruiter
+Wil ik: dat de website goed leesbaar is op verschillende apparaten
+Zodat: ik op elk apparaat gemakkelijk de informatie kan bekijken, of ik nu op mijn telefoon of laptop zit.
+
+Acceptatiecriteria:
+
+De website is responsief en past zich aan verschillende schermformaten aan (desktop, tablet, mobiel).
+
+
+
+Titel: Bezoeker kan eenvoudig contact opnemen met de kandidaat
+
+Als: een potentiële werkgever of recruiter
+Wil ik: makkelijk contact kunnen opnemen via een formulier of contactinformatie op de website
+Zodat: ik direct verdere vragen kan stellen of een interview kan plannen.
+
+Acceptatiecriteria:
+
+Er is een contactformulier beschikbaar op de website.
+De contactinformatie (e-mailadres, telefoonnummer) is duidelijk zichtbaar.

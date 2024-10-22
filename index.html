@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="files/css/styles.css">
+        <link rel="stylesheet" href="files/css/home.css">
+        <title>Aiden</title>
+        <link rel="icon" type="image/x-icon" href="images/icon.png">
+    </head>
+    <body>
+        <!-- header -->
+        <header class="headbuttons">
+            <button onclick="window.location.href = 'index.html'">Home</button>
+            <button onclick="window.location.href = 'about.html'">Over mij</button>
+            <button onclick="window.location.href = 'projects.html'">Projecten</button>
+            <button onclick="window.location.href = 'contact.html'">Contact</button>
+        </header>
+        <br>
+        <!-- content -->
+        <div class="content">
+            <div id="text">
+                <h1 id="name">Aiden Wedema</h1>
+                <h4 id="subtitle">Software Developer</h4>
+                <p id="description">
+                    Ik ben Aiden. Ik hou van gamen, programmeren en schrijven. Ik wil graag mijn eigen games maken.<br>
+                    Ik werk graag met C++, C#, Python en Unity.
+                </p>
+                <div class="CTA">
+                    <button id="CVknop">Download CV</button>
+                    <button id="contactknop" onclick="window.location.href = 'contact.html'">Contact</button>
+                </div>
+            </div>
+            <div id="photo">
+                <img src="files/images/ik.jpeg" alt="Aiden Wedema">
+            </div>
+        </div>
+        <!-- footer-->
+        <footer class="footer">
+            <p>© Aiden Wedema 2024</p>
+        </footer>
+
+        <!-- javascript -->
+        <script>
+            var cvknop = document.querySelector('#CVknop');
+
+            cvknop.addEventListener('click', function() {
+                window.open("files/CV.pdf");
+            })
+        </script>
+    </body>
+</html>

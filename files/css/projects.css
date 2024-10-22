@@ -1,7 +1,8 @@
 .projecten {
-    display: grid;
-    gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
 }
 
 .project {
@@ -30,4 +31,53 @@
     max-width: 90%;
     max-height: 90%;
     margin: 5px;
+}
+
+.collectie {
+    margin: 0;
+}
+
+.details{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 0%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 0%;
+}
+
+.details p {
+    margin: 10px;
+    padding: 0;
+}
+
+.toggle {
+    appearance: none;
+    display: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.toggle+label:before {
+    content: "⯈";
+    display: inline-block;
+    line-height: 0;
+    transition: transform .5s;
+}
+
+.toggle:checked+label:before {
+    transform: rotate(90deg);
+}
+
+.toggle~.details {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height .5s, opacity .5s;
+}
+
+.toggle:checked~.details {
+    max-height: 100vh;
+    opacity: 1;
 }

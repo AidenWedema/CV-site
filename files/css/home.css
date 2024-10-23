@@ -12,12 +12,17 @@
     height: 100%;
     font-family: sans-serif;
     text-align: center;
-    border: 2px solid;
-    transition: background-color 0.5s;
+    background-color: #a8dca6;
+    border: 2px solid transparent;
+    border-radius: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    transition: border 0.5s;
 }
 
 .CTA button:hover{
-    background-color: #51b948;
+    /* background-color: #51b948; */
+    border: 2px solid #000000;
     cursor: pointer;
 }
 

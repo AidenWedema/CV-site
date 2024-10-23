@@ -9,7 +9,8 @@ li, summary {
 
 .details{
     border-radius: 0%;
-    background-color: #51b948;
+    /* background-color: #51b948; */
+    background-color: #a8dca6;
     margin-top: 0px;
     margin-bottom: 20px;
     padding: 0%;
@@ -25,6 +26,10 @@ li, summary {
     display: none;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.toggle+label:hover {
+    cursor: pointer;
 }
 
 .toggle+label:before {

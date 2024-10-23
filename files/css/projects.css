@@ -12,7 +12,8 @@
     justify-content: center;
     border: 2px solid transparent;
     border-radius: 0%;
-    background-color: #51b948;
+    /* background-color: #51b948; */
+    background-color: #a8dca6;
     margin: 0;
     text-align: center;
     color: #000000;
@@ -57,6 +58,10 @@
     display: none;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.toggle+label:hover {
+    cursor: pointer;
 }
 
 .toggle+label:before {
